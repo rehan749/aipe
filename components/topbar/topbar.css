@@ -1,0 +1,8 @@
+
+.date{
+    background: -webkit-linear-gradient(#fa000a, #ffbf00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+    font-size: 23px;
+}

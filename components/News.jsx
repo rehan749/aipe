@@ -4,8 +4,6 @@ import Parser from 'rss-parser';
 
 
 
-  
-
 const News = () => {
     const [allNews, setAllNews] = useState([]);
   
