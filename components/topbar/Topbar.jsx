@@ -2,9 +2,12 @@ import React from 'react'
 
 import CurrentDate from '../Date'
 import './topbar.css';
+import TopNewsSlider from '../TopNewsSlider/TopNewsSlider';
 
 const Topbar = () => {
   return (
+   
+   
     <div className="container-fluid">
       <div className="row align-items-center  px-lg-5" style={{backgroundColor:'#343a40'}}>
         <div className="col-12 col-md-8">
@@ -34,6 +37,7 @@ const Topbar = () => {
         </div>
       </div>
     </div>
+ 
   )
 }
 

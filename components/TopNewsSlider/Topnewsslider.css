@@ -1,0 +1,11 @@
+.slick-slider .slick-arrow{
+    background: #dc3545;
+    height: 25px;
+    width: 20px;
+}
+.slick-slide{
+    /* margin-right: 10px; */
+}
+.topnewsslider div a{
+ text-decoration: none;
+}
