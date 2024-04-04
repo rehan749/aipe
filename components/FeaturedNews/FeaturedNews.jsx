@@ -13,7 +13,33 @@ const FeaturedNews = () => {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
-        cssEase: "linear"
+        cssEase: "linear",
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
       };
   const data = [
     {
@@ -96,7 +122,7 @@ const FeaturedNews = () => {
       />
       <div className="overlay">
         <div className="mb-1" style={{ fontSize: "13px" }}>
-          <a className="text-white" href="#">
+          <a className="text-white bg-red-500 p-1" href="#">
             {item.category}
           </a>
           <span className="px-1 text-white">/</span>

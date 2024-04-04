@@ -17,7 +17,7 @@ const Topbar = () => {
                 <span>Tranding</span>
             </div>
             <div className="owl-carousel owl-carousel-1 tranding-carousel position-relative d-inline-flex align-items-center ml-3" style={{ width: 'calc(100% - 100px)', paddingLeft: '90px' }}>
-              <div className="text-truncate"><a className="text-light" href="">Labore sit justo amet eos sed, et sanctus dolor diam eos</a></div>
+              <div className="text-truncate"><a className="text-white text-uppercase font-weight-semi-bold" href="">Labore sit justo amet eos sed, et sanctus dolor diam eos</a></div>
               {/* <div className="text-truncate"><a className="text-secondary" href="">Gubergren elitr amet eirmod et lorem diam elitr, ut est erat Gubergren elitr amet eirmod et lorem diam elitr, ut est erat</a></div> */}
             </div>
           </div>
