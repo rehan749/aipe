@@ -1,0 +1,137 @@
+{
+    "politicsData": [
+      {
+        "id": 1,
+        "category": "Politics",
+        "image": "img/politics-1.jpg",
+        "postDate": "January 1, 2024",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      {
+        "id": 2,
+        "category": "Politics",
+        "image": "img/politics-2.jpg",
+        "postDate": "January 2, 2024",
+        "title": "Nulla nec lorem a quam posuere malesuada"
+      },
+      {
+        "id": 3,
+        "category": "Politics",
+        "image": "img/politics-3.jpg",
+        "postDate": "January 3, 2024",
+        "title": "Fusce euismod massa vel tortor vehicula, vel tempor felis volutpat"
+      }
+    ],
+    "technologyData": [
+      {
+        "id": 1,
+        "category": "Technology",
+        "image": "img/technology-1.jpg",
+        "postDate": "January 4, 2024",
+        "title": "Pellentesque sit amet ipsum sit amet elit luctus semper non et leo"
+      },
+      {
+        "id": 2,
+        "category": "Technology",
+        "image": "img/technology-2.jpg",
+        "postDate": "January 5, 2024",
+        "title": "Vivamus eleifend justo nec metus tristique, in pulvinar libero vehicula"
+      },
+      {
+        "id": 3,
+        "category": "Technology",
+        "image": "img/technology-3.jpg",
+        "postDate": "January 6, 2024",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      }
+    ],
+    "businessData": [
+      {
+        "id": 1,
+        "category": "Business",
+        "image": "img/business-1.jpg",
+        "postDate": "January 7, 2024",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      {
+        "id": 2,
+        "category": "Business",
+        "image": "img/business-2.jpg",
+        "postDate": "January 8, 2024",
+        "title": "Nulla nec lorem a quam posuere malesuada"
+      },
+      {
+        "id": 3,
+        "category": "Business",
+        "image": "img/business-3.jpg",
+        "postDate": "January 9, 2024",
+        "title": "Fusce euismod massa vel tortor vehicula, vel tempor felis volutpat"
+      }
+    ],
+    "sportsData": [
+      {
+        "id": 1,
+        "category": "Sports",
+        "image": "img/sport.jpg",
+        "postDate": "January 10, 2024",
+        "title": "Pellentesque sit amet ipsum sit amet elit luctus semper non et leo",
+        "dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga perspiciatis odit veritatis necessitatibus cumque sint."
+      },
+      {
+        "id": 2,
+        "category": "Sports",
+        "image": "img/sport.jpg",
+        "postDate": "January 11, 2024",
+        "title": "Vivamus eleifend justo nec metus tristique, in pulvinar libero vehicula",
+        "dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga perspiciatis odit veritatis necessitatibus cumque sint."
+      },
+      {
+        "id": 3,
+        "category": "Sports",
+        "image": "img/sport.jpg",
+        "postDate": "January 12, 2024",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga perspiciatis odit veritatis necessitatibus cumque sint."
+      }
+    ],
+    "lifestyleData": [
+      {
+        "id": 1,
+        "category": "Lifestyle",
+        "image": "img/lifestyle-1.jpg",
+        "postDate": "January 13, 2024",
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      },
+      {
+        "id": 2,
+        "category": "Lifestyle",
+        "image": "img/lifestyle-2.jpg",
+        "postDate": "January 14, 2024",
+        "title": "Nulla nec lorem a quam posuere malesuada"
+      },
+      {
+        "id": 3,
+        "category": "Lifestyle",
+        "image": "img/lifestyle-3.jpg",
+        "postDate": "January 15, 2024",
+        "title": "Fusce euismod massa vel tortor vehicula, vel tempor felis volutpat"
+      }
+    ],
+    "entertainmentData": [
+      {
+        "id": 1,
+        "category": "Entertainment",
+        "image": "img/entertainment-1.jpg",
+        "postDate": "January 16, 2024",
+        "title": "Pellentesque sit amet ipsum sit amet elit luctus semper non et leo"
+      },
+      {
+        "id": 2,
+        "category": "Entertainment",
+        "image": "img/entertainment-2.jpg",
+        "postDate": "January 17, 2024",
+        "title": "Vivamus eleifend justo nec metus tristique, in pulvinar libero vehicula"
+      }
+    ]
+  }
+  

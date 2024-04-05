@@ -1,87 +1,87 @@
 'use client'
-import React from 'react'
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import './category.css'
 
 
-const CategoryNews = () => {
+const CategoryNews2 = () => {
 
-  // Business News
-const businessData = [
+  // Entertainment News
+const EntertainmentData = [
   {
     "id": 1,
-    "image": "img/business.jpg",
-    "post_date": "January 1, 2024",
-    "category": "Business",
+    "image": "img/entertainment.jpg",
+    "post_date": "Jan 1, 2024",
+    "category": "Entertainment",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   },
   {
     "id": 2,
-    "image": "img/business.jpg",
-    "post_date": "January 2, 2024",
-    "category": "Business",
+    "image": "img/entertainment.jpg",
+    "post_date": "Jan 2, 2024",
+    "category": "Entertainment",
     "title": "Nulla nec lorem a quam posuere malesuada"
   },
   {
     "id": 3,
-    "image": "img/business.jpg",
-    "post_date": "January 3, 2024",
-    "category": "Business",
+    "image": "img/entertainment.jpg",
+    "post_date": "Jan 3, 2024",
+    "category": "Entertainment",
     "title": "Fusce euismod massa vel tortor vehicula, vel tempor felis volutpat"
   },
   {
     "id": 4,
-    "image": "img/business.jpg",
-    "post_date": "January 4, 2024",
-    "category": "Business",
+    "image": "img/entertainment.jpg",
+    "post_date": "Jan 4, 2024",
+    "category": "Entertainment",
     "title": "Pellentesque sit amet ipsum sit amet elit luctus semper non et leo"
   },
   {
     "id": 5,
-    "image": "img/business.jpg",
-    "post_date": "January 5, 2024",
-    "category": "Business",
+    "image": "img/entertainment.jpg",
+    "post_date": "Jan 5, 2024",
+    "category": "Entertainment",
     "title": "Vivamus eleifend justo nec metus tristique, in pulvinar libero vehicula"
   }
 ];
 
-// Technology News
-const technologyData = [
+// Sport News
+const SportData = [
   {
     "id": 1,
-    "image": "img/tech.jpeg",
-    "post_date": "January 1, 2024",
-    "category": "Technology",
+    "image": "img/sport.jpg",
+    "post_date": "Jan 1, 2024",
+    "category": "Sport",
     "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   },
   {
     "id": 2,
-    "image": "img/tech.jpeg",
-    "post_date": "January 2, 2024",
-    "category": "Technology",
+    "image": "img/sport.jpg",
+    "post_date": "Jan 2, 2024",
+    "category": "Sport",
     "title": "Nulla nec lorem a quam posuere malesuada"
   },
   {
     "id": 3,
-    "image": "img/tech.jpeg",
-    "post_date": "January 3, 2024",
-    "category": "Technology",
+    "image": "img/sport.jpg",
+    "post_date": "Jan 3, 2024",
+    "category": "Sport",
     "title": "Fusce euismod massa vel tortor vehicula, vel tempor felis volutpat"
   },
   {
     "id": 4,
-    "image": "img/tech.jpeg",
-    "post_date": "January 4, 2024",
-    "category": "Technology",
+    "image": "img/sport.jpg",
+    "post_date": "Jan 4, 2024",
+    "category": "Sport",
     "title": "Pellentesque sit amet ipsum sit amet elit luctus semper non et leo"
   },
   {
     "id": 5,
-    "image": "img/tech.jpeg",
-    "post_date": "January 5, 2024",
-    "category": "Technology",
+    "image": "img/sport.jpg",
+    "post_date": "Jan 5, 2024",
+    "category": "Sport",
     "title": "Vivamus eleifend justo nec metus tristique, in pulvinar libero vehicula"
   }
 ];
@@ -130,11 +130,11 @@ const settings = {
        
        
         <div className="bg-light py-2 px-4 mb-3">
-          <h3 className="m-0">Business</h3>
+          <h3 className="m-0">Entertainment</h3>
         </div>
         <div className="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
         <Slider {...settings}>
-          {businessData.map((item) => (
+          {EntertainmentData.map((item) => (
             <div key={item.id} className="position-relative">
               <img className="img-fluid w-100" src={item.image} />
               <div className="overlay-1 position-relative bg-light">
@@ -161,13 +161,13 @@ const settings = {
      
       <div className="col-lg-6 py-3">
         <div className="bg-light py-2 px-4 mb-3">
-          <h3 className="m-0">Technology</h3>
+          <h3 className="m-0">Sports</h3>
         </div>
      
      
         <div className="owl-carousel owl-carousel-3 carousel-item-2 position-relative">
         <Slider {...settings}>
-          {technologyData.map((item) => (
+          {SportData.map((item) => (
             <div key={item.id} className="position-relative">
               <img className="img-fluid w-100" src={item.image} />
               <div className="overlay-1 position-relative bg-light">
@@ -192,4 +192,4 @@ const settings = {
   )
 }
 
-export default CategoryNews
+export default CategoryNews2

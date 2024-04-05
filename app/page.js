@@ -1,3 +1,6 @@
+import CategoryNews from "@/components/CategoryNews/CategoryNews";
+import CategoryNews2 from "@/components/CategoryNews/CategoryNews2";
+import CategoryNews3 from "@/components/CategoryNews/CategoryNews3";
 import FeaturedNews from "@/components/FeaturedNews/FeaturedNews";
 import MainNewsSlider from "@/components/MainNews/MainNewsSlider";
 import News from "@/components/News";
@@ -18,9 +21,9 @@ export default function Home() {
     <TopNewsSlider/>
      <MainNewsSlider />
      <FeaturedNews />
-    
-
-    
+     <CategoryNews />
+     <CategoryNews2 />
+     <CategoryNews3 />
     </>
   )
 }
